@@ -288,5 +288,5 @@
 
 ## **3.结果展示**
 
-![image-20250923194819672](image\image1.png)
+![image1](.\image\image1.png)
 
