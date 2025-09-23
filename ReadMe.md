@@ -288,5 +288,5 @@
 
 ## **3.结果展示**
 
-![image1](image\image1.png)
+![image1](image/image1.png)
 
