@@ -54,13 +54,14 @@ int main(int argc, char* argv[]) {
     // --- 创建窗口 ---
     QWidget mainWindow;
 
-    mainWindow.setWindowTitle(QObject::tr("Qt Diagramming Software"));
+    //mainWindow.setWindowTitle(QObject::tr("Qt Diagramming Software"));
     mainWindow.resize(1500, 1200);
 
     DiagramEditor* editor = new DiagramEditor();
     QVBoxLayout* layout = new QVBoxLayout(&mainWindow);
     layout->addWidget(editor);
     layout->setContentsMargins(0, 0, 0, 0); // 通常主布局会设置边距，设为0可以让内容占满窗口
+    editor->retranslateUi();
     mainWindow.setLayout(layout);
 
     // --- **修改:** 调用 showFullScreen() 代替 show() ---

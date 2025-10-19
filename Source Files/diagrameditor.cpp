@@ -259,7 +259,7 @@ DiagramEditor::DiagramEditor(QWidget* parent) : QWidget(parent) {
 	connect(drawingArea, &DrawingArea::clearSelection, this, &DiagramEditor::handleClearSelection);
 	// --- 初始化 FormatPanel 显示 ---
 	updateFormatPanelAll(); // 在最后调用一次，确保初始状态正确显示
-	retranslateUi();
+	//retranslateUi();
 }
 
 
