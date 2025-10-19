@@ -52,6 +52,7 @@ public:
     // 构造函数
     explicit DiagramEditor(QWidget* parent = nullptr);
     static Shape* getShape(int currentShapeType, QRect rect);
+    void retranslateUi();
 
 public slots:
     void onCopy();  
@@ -68,7 +69,7 @@ private slots:
     void onOpen();
     void onSave();
     void switchAera();
-    void retranslateUi(); 
+    
 
     // --- 响应 MenuBar 格式菜单信号的槽函数 ---
     void onFormatChangeBorderColor(); // 
